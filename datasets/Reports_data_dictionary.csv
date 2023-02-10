@@ -1,0 +1,23 @@
+Variable,Data Type,Definition
+PseudoID,int64,ID number of the original report of a vulnerability
+PseudoIDRe,int64,ID number of the original report of a vulnerability in terms of the earliest report
+ReportID,int64,ID number of the duplicate report of a vulnerability
+Opened,int64,Time a report is opened (timestamp)
+Closed,int64,Time a report is closed (timestamp)
+YearOpened,int64,Time a report is opened (year)
+Summary,str,Summary of a report
+OriginalReporter,str,Original Reporter
+Reporter,str,Reporter
+Status,str,Status of of the report
+SecuritySeverity,str,Criticality of the report
+Component,"list (Chromium), str (Firefox)",Component affected by a report
+WeaknessType,str,Weakness type of a vulnerability
+IsExternal,int64 (0/1),External=1
+Releases,str,Impacted Releases
+Language,list,Programming languages 
+IsExploited,int64 (0/1),exploited=1
+FirstReported,int64,Time of the first report of a vulnerability
+FixedTimestamp,int64,Time a report is fixed (Timestamp)
+TimeToFix,int64,Time to patch (in days)
+TimeFromFirstReport,int64,Time until a rediscovery (in days)
+IsReopened,"int64 (0/1) Firefox, NA (Chromium)  ",Identifier to show whether a report is reopened

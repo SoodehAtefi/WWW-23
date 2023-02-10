@@ -1,0 +1,18 @@
+SECURITY_KEYWORDS=['sec-critical','sec-high', 'sec-moderate','sec-low','sec-other','sec-vector','csectype-bounds',
+'csectype-disclosure',
+'csectype-dos',
+'csectype-framepoisoning',
+'csectype-intoverflow',
+'csectype-jit',
+'csectype-nullptr',
+'csectype-oom',
+'csectype-other',
+'csectype-priv-escalation',
+'csectype-race',
+'csectype-sop',
+'csectype-spoof',
+'csectype-uaf',
+'csectype-undefined',
+'csectype-uninitialized',
+'csectype-wildptr']
+
