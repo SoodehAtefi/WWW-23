@@ -5,13 +5,13 @@ To replicate the analysis performed in the paper run ./data_analysis/statistics_
 ## Structure
 ```
 .
-├── data_collection          # contains scripts for Firefox data collection, Chromium git sources, and Chromium weakness types
+├── data_collection        # contains scripts for Firefox data collection, Chromium git sources, and Chromium weakness types
 ├── data_cleaning          # contains scripts for Firefox data cleaning, cleaning Chromium git sources, and cleaning Chromium weakness types
 ├── data_analyses          # contains scripts for all of the analysis performed in the paper
-├── results folder          # contains results of the performed analysis
-├── datasets folder          # contains cleaned data for performing analysis
+├── results folder         # contains results of the performed analysis
+├── datasets folder        # contains cleaned data for performing analysis
 ├── data contains          # files created during data collection
 ├── Chromium_data_collection_and_cleaning          # contains scripts for Chromium data collection and cleaning
-├── HEADER.py contains          # imported packages needed to run the scripts
+├── HEADER.py contains     # imported packages needed to run the scripts
 
 
