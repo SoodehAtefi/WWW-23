@@ -11,7 +11,7 @@ To replicate the analysis performed in the paper run ./data_analysis/statistics_
 ├── results folder         # contains results of the performed analysis
 ├── datasets folder        # contains cleaned data for performing analysis
 ├── data contains          # files created during data collection
-├── Chromium_data_collection_and_cleaning          # contains scripts for Chromium data collection and cleaning
 ├── HEADER.py contains     # imported packages needed to run the scripts
+├── Chromium_data_collection_and_cleaning      # contains scripts for Chromium data collection and cleaning
 
 
